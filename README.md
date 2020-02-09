@@ -50,7 +50,9 @@
 
 Chromeに拡張機能をインストールします。
 
-1. サンプルソースをダウンロードして、適当な場所に配置します。
+1. サンプルソースをダウンロードして、適当な場所に配置します。GitHubの「Clone or download」でダウンロードできます。「AccessCtrl_client」フォルダをクライアント側で利用します。
+
+   <img src="README_img/ソースダウンロード.jpg" alt="ソースダウンロード" title="ソースダウンロード">
 
 2. chromeの拡張機能の設定画面を開く。アドレスバーに「chrome://extensions/」と入力する。
 
@@ -64,7 +66,11 @@ Chromeに拡張機能をインストールします。
 
    <img src="README_img/デベロッパーモードの拡張機能を無効にする.jpg" alt="デベロッパーモードの拡張機能を無効にする" title="デベロッパーモードの拡張機能を無効にする" width="300px">
 
-4. ダウンロードしたサンプルソースのフォルダーを選択して取り込みます。取り込みが完了すると拡張機能の一覧と、アドレスバーの横に取り込んだアプリが表示されます。
+4. ダウンロードしたサンプルソースのフォルダーを選択して取り込みます。
+
+   <img src="README_img/拡張機能取り込み.jpg" alt="拡張機能取り込み" title="拡張機能取り込み" width="600px">
+
+5. 取り込みが完了すると拡張機能の一覧と、アドレスバーの横に取り込んだアプリが表示されます。
 
    <img src="README_img/拡張機能インストール.jpg" alt="拡張機能インストール" title="拡張機能インストール" width="300px"><img src="README_img/アドレスバーの横.jpg" alt="アドレスバーの横" title="アドレスバーの横" width="300px">
 
@@ -76,9 +82,9 @@ Webアプリケーションにスクリプトを組み込みます。
 
 1. ウェブサーバの構築します。サンプルはPHPなので、それが動く環境であれば何でもいいですが、ここではXamppを使います。(※Xamppの設定手順はこちらを参考にしてください→https://github.com/yamori4/objectOriented/blob/master/_readMe/installXampp.md)
 
-2. サンプルソースをダウンロードして、xamppの制御下に配置します。「C:\xampp」にインストールした場合だと「C:\xampp\htdocs」というフォルダあるので、その配下に配置します。
+2. サンプルソースをダウンロードして、xamppの制御下に配置します。「C:\xampp」にインストールした場合だと「C:\xampp\htdocs」というフォルダあるので、その配下に配置します。ソースコードはGitHubの「Clone or download」でダウンロードできます。「AccessCtrl_server」ファイルをサーバ側で利用します。
 
-   <img src="README_img/xamppへのファイル配置.jpg" alt="xamppへのファイル配置" title="xamppへのファイル配置" width="600px">
+   <img src="README_img/ソースダウンロード.jpg" alt="ソースダウンロード" title="ソースダウンロード"><img src="README_img/xamppへのファイル配置.jpg" alt="xamppへのファイル配置" title="xamppへのファイル配置" width="600px">
 
 3. XamppのApacheを起動します。Apacheの「Startボタン」をクリックします。
 
